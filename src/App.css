@@ -1,0 +1,37 @@
+body {
+  background-image: url(./assets/background.jpg);
+  background-size: cover;
+  background-position-y: -200px;
+  background-size: 120%;
+  background-repeat: no-repeat;
+
+}
+#root {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  opacity: 0;
+  transition: all 1s;
+}
+body:hover .container {
+  opacity: 1;
+}
+.container h1 {
+  color: #379DA8;
+  font-size: 80px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 12px;
+  text-align: center;
+  margin-top: -20px;
+  
+}
+.container p {
+  font-size: 23px;
+  text-align: center;
+  margin-top: -20px;
+  
+}

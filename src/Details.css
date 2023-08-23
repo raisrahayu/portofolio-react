@@ -1,0 +1,22 @@
+body .detail {
+    opacity: 0;
+    transition: all 6s;
+}
+body:hover .detail {
+    opacity: 1;
+}
+.detail {
+    width: 300px;
+    display: inline-block;
+    margin-left: 1000px;
+    margin-top: -306px;
+    letter-spacing: 2px;
+}
+.detail h3 {
+    font-size:25px;
+    
+}
+.detail img {
+    width: 40px;
+    margin-left: -6px;
+}
